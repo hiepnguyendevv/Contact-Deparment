@@ -1,0 +1,36 @@
+/* .container
+{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+} */
+
+
+.card
+{
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+.card:hover
+{
+    background-color: #d941ff15;
+    transition: 0.5s;
+    
+}
+
+
+
+.card > img
+{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+}
+
+
